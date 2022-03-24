@@ -29,30 +29,32 @@ body {
     width: 20rem;
     background-color: #008080;
     border-radius: 10%;
-    border: #E60234 solid 2px;
+    border: #000000 solid 2px;
     display: none;
-}
-
-.navItemsLaunch {
-    display:none;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9B0F32;
-    font-size: 1.2rem;
 }
 
 #launchButtonArea {
     height: 12rem;
 }
 
-#mobileNavigator {
+.navItemsLaunch {
+    display:none;
+    color: #9a9a00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
+#aboutArea{
+    height: 40rem;
 }
 
 .launchItems {
     width: 100%;
-    color: #000000;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #9B0F32;
+    color: #9a9a00;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #000000;
 }
 
 .merriweather {
@@ -65,4 +67,25 @@ body {
 
 .biggerH2 {
     font-size: 1.75rem;
+}
+
+.formalPic {
+    height: 10rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: #000000 solid 2px;
+}
+
+.armyPic {
+    height: 10rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: #000000 solid 2px;
+}
+
+.familyPic {
+    height: 10rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: #000000 solid 2px;
 }
