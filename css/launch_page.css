@@ -4,90 +4,65 @@
 /*}*/
 
 body {
-    background-color: #efecec;
+    background-color: #174950;
 }
 
 #launchArea {
     width: 100%;
-    height: 40rem;
-}
-
-.launchItems {
-    width: 100%;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Roboto Slab', serif
+    height: 30rem;
 }
 
 #myName {
     margin-bottom: 3rem;
 }
 
-#jobTitle {
+#launchButton {
+    height: 5rem;
+    width: 5rem;
+    background-color: #E60234;
+    border-radius: 50%;
+    border: #000000 solid 4px;
+}
+
+#launchButtonClicked {
+    height: 10rem;
+    width: 20rem;
+    background-color: #008080;
+    border-radius: 10%;
+    border: #E60234 solid 2px;
+    display: none;
+}
+
+.navItemsLaunch {
+    display:none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9B0F32;
+    font-size: 1.2rem;
+}
+
+#launchButtonArea {
+    height: 12rem;
+}
+
+#mobileNavigator {
 
 }
 
-.gradient-text {
-    /* Fallback: Set a background color. */
-    background-color: #CA4246;
-
-    /* Create the gradient. */
-    background-image: linear-gradient(
-            65deg,
-            #404348 16.666%,
-            #404348 16.666%,
-            #404348 33.333%,
-            #404348 33.333%,
-            #F18F43 50%,
-            #FFB81D 50%,
-            #C89C76 66.666%,
-            #C89C76 66.666%,
-            #C89C76 83.333%,
-            #C89C76 83.333%);
-
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    /* Animate the text when loading the element. */
-    /* This animates it on page load and when hovering out. */
-    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
-
+.launchItems {
+    width: 100%;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9B0F32;
 }
 
-.gradient-text:hover{
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+.merriweather {
+    font-family: 'Merriweather', serif;
 }
 
-
-/* Move the background and make it smaller. */
-/* Animation shown when entering the page and after the hover animation. */
-@keyframes rainbow-text-simple-animation-rev {
-    0% {
-        background-size: 650%;
-    }
-    40% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 100%;
-    }
+.biggerH1 {
+    font-size: 2.5rem;
 }
 
-/* Move the background and make it larger. */
-/* Animation shown when hovering over the text. */
-@keyframes rainbow-text-simple-animation {
-    0% {
-        background-size: 100%;
-    }
-    80% {
-        background-size: 650%;
-    }
-    100% {
-        background-size: 650%;
-    }
+.biggerH2 {
+    font-size: 1.75rem;
 }
