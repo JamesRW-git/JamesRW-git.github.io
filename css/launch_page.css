@@ -9,7 +9,7 @@ body {
 
 #launchArea {
     width: 100%;
-    height: 30rem;
+    height: 70vh;
 }
 
 #myName {
@@ -34,8 +34,19 @@ body {
 }
 
 #launchButtonArea {
-    height: 12rem;
+    height: 30vh;
 }
+
+.mobilePage{
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+/*#skillsArea{*/
+/*    height: 100vh;*/
+/*    !*margin-bottom: 3rem;*!*/
+/*    margin-top: 3rem;*/
+/*}*/
 
 .navItemsLaunch {
     display:none;
@@ -44,10 +55,6 @@ body {
     -webkit-text-stroke-color: #000000;
     font-size: 1.2rem;
     text-decoration: none;
-}
-
-#aboutArea{
-    height: 40rem;
 }
 
 .launchItems {

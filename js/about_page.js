@@ -12,7 +12,4 @@ $(document).ready(function () {
     <img src="images/image_6483441.JPG" alt="In the Army Now" class="armyPic">
     `)
 
-    $('#aboutMeTextArea').append(`
-    <p class="merriweather text-center mt-5">Hello! This is me. More to follow.</p>
-    `)
 })
