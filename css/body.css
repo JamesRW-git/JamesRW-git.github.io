@@ -3,9 +3,9 @@
 /*    border: 1px solid red;*/
 /*}*/
 
-body {
-    background-color: #174950;
-}
+/*body {*/
+/*    background-color: #174950;*/
+/*}*/
 
 #launchArea {
     width: 100%;
@@ -27,7 +27,7 @@ body {
 #launchButtonClicked {
     height: 12rem;
     width: 20rem;
-    background-color: #008080;
+    background-color: #1d616e;
     border-radius: 10%;
     border: #000000 solid 2px;
     display: none;
@@ -37,8 +37,8 @@ body {
     height: 30vh;
 }
 
-#contactContent {
-    height: 60vh;
+.content {
+    height: 70vh;
 }
 
 .mobilePage{

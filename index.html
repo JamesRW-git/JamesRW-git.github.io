@@ -13,8 +13,10 @@
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--CSS Stylesheet for Background-->
+    <link rel="stylesheet" href="css/background.css">
     <!--CSS Stylesheet for Launch Page-->
-    <link rel="stylesheet" href="css/launch_page.css">
+    <link rel="stylesheet" href="css/body.css">
     <!--Transitions CSS-->
     <link rel="stylesheet" href="css/transition.min.css">
     <!--Google Font: Roboto Slab 600wt-->
@@ -37,16 +39,16 @@
         <div id="launchButton" class="d-flex align-items-center justify-content-center">
             <p class="merriweather my-auto">Launch</p>
         </div>
-        <div id="launchButtonClicked" class="justify-content-center row">
-            <a href="#aboutArea" class="d-flex col-4 text-center justify-content-center text-decoration-none"><p
+        <div id="launchButtonClicked" class="justify-content-center row align-items-center mx-auto">
+            <a href="#aboutArea" class="pt-4 d-flex col-4 text-center justify-content-center text-decoration-none"><p
                     class="merriweather navItemsLaunch align-self-center" id="aboutTopLink">About</p></a>
-            <a href="#skillsArea" class="d-flex col-4 text-center justify-content-center text-decoration-none"><p
+            <a href="#skillsArea" class="pt-4 d-flex col-4 text-center justify-content-center text-decoration-none"><p
                     class="merriweather navItemsLaunch align-self-center" id="skillsTopLink">Skills</p></a>
-            <a class="d-flex col-4 text-center justify-content-center text-decoration-none"><p
+            <a href="#projectsArea" class="pt-4 d-flex col-4 text-center justify-content-center text-decoration-none"><p
                     class="merriweather navItemsLaunch align-self-center" id="projectsTopLink">Projects</p></a>
-            <a class="d-flex col-6 text-center justify-content-center text-decoration-none"><p
+            <a href="#resumeArea" class="pb-4 d-flex col-6 text-center justify-content-center text-decoration-none"><p
                     class="merriweather navItemsLaunch align-self-center" id="resumeTopLink">Resume</p></a>
-            <a class="d-flex col-6 text-center justify-content-center text-decoration-none"><p
+            <a href="#contactArea" class="pb-4 d-flex col-6 text-center justify-content-center text-decoration-none"><p
                     class="merriweather navItemsLaunch align-self-center" id="contactTopLink">Contact</p></a>
         </div>
     </div>
@@ -105,9 +107,10 @@
 
 <main id="projectsArea" class="mobilePage">
     <h1 class="biggerH1 text-center launchItems merriweather">Projects</h1>
-    <div id="carouselProject" class="carousel slide mx-2 mt-5" data-bs-ride="carousel">
+    <section id="carouselProject" class="carousel slide mx-2 mt-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
@@ -130,7 +133,31 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </section>
+    <section class="mt-2 mx-2">
+        <p class="merriweather">Something should go here. I'm not sure exactly how I want this whole area to look.
+        Maybe some sort of an additional carousel that lines up with the pictures? Thoughts in progress.</p>
+    </section>
+</main>
+
+<main id="resumeArea" class="mobilePage">
+    <h1 class="biggerH1 text-center launchItems merriweather">Resume</h1>
+    <section class="mt-5 content d-flex row justify-content-center align-items-center merriweather">
+        <p class="mx-2 col-10">Full resume available upon <a class="text-body text-decoration-none" href="">request</a></p>
+        <p class="mx-2 col-10">Bachelors of Science Business Management and Administration from Louisiana State University Shreveport
+            (LSUS)</p>
+        <p class="mx-2 col-10">United States Army: 4 years Active Duty, 4 years National Guard</p>
+        <p class="mx-2 col-10">Telecom: 5 years </p>
+        <p class="mx-2 col-10">Service Industry: 6 years</p>
+    </section>
+</main>
+
+<main id="contactArea" class="mobilePage">
+    <h1 class="biggerH1 text-center launchItems merriweather">Contact Me</h1>
+    <section class="merriweather d-flex row content">
+        <p class="align-self-end text-center">(318)550-7510</p>
+        <p class="text-center">JamesRobertWoodward@gmail.com</p>
+    </section>
 </main>
 <script src="js/launch_page.js"></script>
 <script src="js/about_page.js"></script>

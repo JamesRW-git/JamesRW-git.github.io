@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('#launchButton').click(function (e) {
         e.preventDefault();
-            $('#launchButton').addClass('ld ld-power-off')
+            $('#launchButton').addClass('ld ld-zoom-out')
         setTimeout(function(){
             $('#launchButton').addClass('d-none')
         }, 1050)
