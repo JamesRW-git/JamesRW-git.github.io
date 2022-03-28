@@ -37,6 +37,11 @@
     height: 30vh;
 }
 
+.logo {
+    height: 5rem;
+    width: 5rem;
+}
+
 .content {
     height: 70vh;
 }
