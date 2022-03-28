@@ -27,7 +27,7 @@
 #launchButtonClicked {
     height: 12rem;
     width: 20rem;
-    background-color: #1d616e;
+    background-color: rgba(0, 225, 255, 0.17);
     border-radius: 10%;
     border: #000000 solid 2px;
     display: none;
@@ -40,6 +40,15 @@
 .logo {
     height: 5rem;
     width: 5rem;
+}
+
+.logoTall {
+    height: 7rem;
+    width: 6rem;
+}
+
+.noDecList {
+    list-style-type: none;
 }
 
 .content {
