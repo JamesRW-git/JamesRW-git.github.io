@@ -28,6 +28,10 @@ p {
     border: #000000 solid .75vh;
 }
 
+#launchButtonArea {
+    height: 30vh;
+}
+
 #launchButtonClicked {
     height: 30vh;
     width: 45vh;
@@ -35,10 +39,6 @@ p {
     border-radius: 10%;
     border: #000000 solid .5vh;
     display: none;
-}
-
-#launchButtonArea {
-    height: 30vh;
 }
 
 .logo {
@@ -59,13 +59,13 @@ p {
     height: 70vh;
 }
 
-.mobilePage{
+.mobilePage {
     height: 100vh;
     margin-top: 5vh;
 }
 
 .navItemsLaunch {
-    display:none;
+    display: none;
     color: #cece02;
     -webkit-text-stroke-width: .15vh;
     -webkit-text-stroke-color: #000000;
@@ -122,3 +122,5 @@ p {
 .scroller main {
     scroll-snap-align: start;
 }
+
+
