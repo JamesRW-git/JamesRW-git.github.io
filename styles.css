@@ -1,6 +1,6 @@
 body {
     background-color: #121212; /* Dark mode background color */
-    color: #ffffff; /* Dark mode text color */
+    color: #000000; /* Dark mode text color */
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
