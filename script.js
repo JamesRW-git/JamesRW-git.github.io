@@ -407,7 +407,7 @@ const questions = [
             { text: "Lungs", correct: false },
             { text: "Heart", correct: true },
             { text: "Diaphragm", correct: false },
-            { text: "Esophagus", correct: false }
+            { text: "Spleen", correct: false }
         ]
     },
     {
