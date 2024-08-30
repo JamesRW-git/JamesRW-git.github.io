@@ -435,15 +435,9 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 const feedbackElement = document.getElementById('feedback');
-const darkModeToggle = document.getElementById('dark-mode-toggle');
 
 let shuffledQuestions, currentQuestionIndex;
 let correctAnswers = 0;  // Initialize correct answer counter
-
-// Function to apply dark mode on page load
-function applyDarkMode() {
-    document.body.classList.add('dark-mode');
-}
 
 function startQuiz() {
     shuffledQuestions = shuffleArray(questions);  // Shuffle questions at the start
@@ -544,10 +538,6 @@ function showResults() {
     nextButton.innerText = 'Restart';
 }
 
-darkModeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-});
-
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < shuffledQuestions.length) {
@@ -557,5 +547,4 @@ nextButton.addEventListener('click', () => {
     }
 });
 
-applyDarkMode();  // Apply dark mode on page load
 startQuiz();
